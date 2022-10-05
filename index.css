@@ -1,0 +1,147 @@
+.box{
+    display:grid;
+    border-radius: 2px solid white;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    height: 600px;
+    width: 800px;
+    margin-left: 22%;
+    margin-top: 1;
+}
+
+.rect1{
+    grid-row-start: 1 ;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    background-color:palevioletred;
+    border: 3px solid white;
+}
+
+.rect2{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 1;
+    background-color:brown;
+    border:3px solid white;
+}
+
+.rect3{
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: red;
+    border: 3px solid white;
+}
+
+.rect4{
+    grid-row-start: 1;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    background-color:rgb(33, 85, 182);
+    border: 3px solid white;
+}
+
+.rect5{
+    grid-row-start: 1;
+    grid-column-start: 6;
+    grid-row-end: 6;
+    background-color:white;
+    border: 3px solid white;
+}
+
+.rect6{
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    background-color:palevioletred ;
+    border: 3px solid white;
+}
+
+.rect7{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 4;
+    background-color:gold;
+    border: 3px solid white;
+}
+
+.rect8{
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-end: 5;
+    background-color: white;
+    broder: 3px solid white;
+}
+
+.rect9{
+    grid-row-start: 2;
+    grid-column-start: 5;
+    grid-row-end: 4;
+    background-color: gold;
+    border: 3px solid white;
+}
+
+.rect10{
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-row-end: 6;
+    background-color: gold;
+    border: 3px solid white;
+}
+
+.rect11{
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-row-end: 5;
+    background-color: rgb(33, 85, 182);
+    border: 3px solid white;
+}
+
+.rect12{
+    grid-row-start: 4;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    background-color:brown;
+    border:3px solid white;
+}
+
+.rect13{
+    grid-row-start: 4;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    background-color:palevioletred;
+    border:3px solid white;
+}
+
+.rect14{
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border:3px solid white;
+    background-color:palevioletred;
+}
+
+.rect15{
+    grid-row-start: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: gold;
+    border: 3px solid white;
+}
+
+.rect16{
+    grid-row-start: 5;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    background-color:palevioletred;
+    border: 3px solid white;
+}
+
+.rect17{
+    grid-row-start: 5;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    background-color: rgb(33, 85, 182);
+    border: 3px solid white;
+}
